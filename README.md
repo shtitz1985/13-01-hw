@@ -48,9 +48,9 @@ PORT     STATE SERVICE     VERSION
 ```
 
 - Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
-#### https://www.exploit-db.com/exploits/45939 + нашел [статью как это реализовать](https://litl-admin.ru/xaking/ssh-perechislenie-polzovatelej-s-posleduyushhim-pereborom.html)
-#### https://www.exploit-db.com/exploits/27778, рекомендуется обновить samba до последней версии, где устранена эта проблема.
-#### https://www.exploit-db.com/exploits/41974, рекомендуется ограничить доступ к RPCBind только с определенных IP-адресов и/или использовать брандмауэр, чтобы предотвратить возможные атаки на основе этой уязвимости. Также стоит помнить о своевременном обновлении ПО, где данные уязвимости исправлены.
+#### https://www.exploit-db.com/exploits/45939 + есть [статья как поправить эту уязвимость](https://litl-admin.ru/xaking/ssh-perechislenie-polzovatelej-s-posleduyushhim-pereborom.html)
+#### https://www.exploit-db.com/exploits/27778, поможет обновление samba до последней версии, где устранена эта проблема.
+#### https://www.exploit-db.com/exploits/41974, тут скорей всего надо ограничить доступ к RPCBind только с определенных IP-адресов и/или использовать брандмауэр, чтобы предотвратить возможные атаки на основе этой уязвимости. Также стоит помнить о своевременном обновлении ПО, где данные уязвимости исправлены.
  
 ### Задание 2
 
